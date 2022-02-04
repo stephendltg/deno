@@ -11,3 +11,10 @@
 ### VSCODE addons:
 
 [deno for vscode](https://marketplace.visualstudio.com/items?itemName=denoland.vscode-deno)
+
+### Deno fileserver
+
+‘’’bash
+deno run --allow-net --allow-read https://deno.land/std/http/file_server.ts
+> HTTP server listening on http://localhost:4507/
+’’’
