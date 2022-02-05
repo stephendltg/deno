@@ -63,6 +63,10 @@ compile:
 cli:
 	@echo "Deno install global cli ..."
   ${DENO} install -f -A -n deno-app mod.ts
+  
+remove-cli:
+	@echo "Deno remove cli ..."
+  ${DENO} uninstall deno-app
 
 inspect:
 	@echo "Deno inspect ..."
