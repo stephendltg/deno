@@ -18,3 +18,11 @@
 deno run --allow-net --allow-read https://deno.land/std/http/file_server.ts
 > HTTP server listening on http://localhost:4507/
 ```
+
+## Docs
+
+### Summary
+
+- [Apprendre typescript](https://www.typescriptlang.org/fr/)
+- [Reference javascript](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference)
+- [Git conventions](conventions.md)
