@@ -25,4 +25,5 @@ deno run --allow-net --allow-read https://deno.land/std/http/file_server.ts
 
 - [Apprendre typescript](https://www.typescriptlang.org/fr/)
 - [Reference javascript](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference)
+- [ECMA-262](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
 - [Git conventions](conventions.md)
