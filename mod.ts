@@ -1,5 +1,7 @@
 #!/usr/bin/env deno run --allow-env --allow-run
 
+import { log } from "./deps.ts";
+
 /**
  * Adds x and y.
  * @param {number} x
@@ -23,4 +25,4 @@ export function upperString(value: string): string {
   return value.toUpperCase();
 }
 
-console.log(upperString("Hello world!"));
+log.info(upperString("Hello world!"));
