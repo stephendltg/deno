@@ -59,6 +59,10 @@ clean:
 compile:
 	@echo "Deno Compile ..."
 	$(BUILD) -A --unstable mod.ts
+  
+cli:
+	@echo "Deno install global cli ..."
+  ${DENO} install -f -A -n deno-app mod.ts
 
 inspect:
 	@echo "Deno inspect ..."
