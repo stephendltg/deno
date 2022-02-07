@@ -74,7 +74,7 @@ inspect:
 	${INSPECT} --allow-all --unstable mod.ts
 
 doc:
-	@echo "Deno Compile ..."
+	@echo "Deno doc ..."
 	$(DOCS) > docs.json
 
 env:
