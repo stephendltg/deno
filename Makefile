@@ -13,7 +13,7 @@ INSPECT=${DENO} run --inspect
 VERSION=0.0.1
 DESCRIPTION=Deno template
 AUTHOR=stephendltg
-DENOVERSION=1.18.1
+DENOVERSION=1.19.0
 
 all: install
 
